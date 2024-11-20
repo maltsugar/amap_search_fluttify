@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   permission_handler: ^9.2.0
-  decorated_flutter: ^0.40.0-dev.0
+  decorated_flutter: ^0.48.3
   amap_search_fluttify:
     path: ../
 

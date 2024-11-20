@@ -58,7 +58,7 @@ class _AddressEncodeScreenState extends State<AddressEncodeScreen> {
             controller: _cityController,
             decoration: const InputDecoration(hintText: '输入城市'),
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () async {
               final geocodeList = await AmapSearch.instance.searchGeocode(
                 _keywordController.text,
@@ -118,7 +118,7 @@ class _AddressDecodeScreenState extends State<AddressDecodeScreen> {
             controller: _radiusController,
             decoration: const InputDecoration(hintText: '输入范围半径'),
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () async {
               final reGeocodeList = await AmapSearch.instance.searchReGeocode(
                 LatLng(

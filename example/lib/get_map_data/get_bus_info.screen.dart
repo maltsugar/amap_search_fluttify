@@ -31,7 +31,7 @@ class _GetBusInfoScreenState extends State<GetBusInfoScreen> {
             controller: _cityController,
             decoration: const InputDecoration(hintText: '输入城市'),
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () async {
               final busStation = await AmapSearch.instance.searchBusStation(
                 stationName: _keywordController.text,

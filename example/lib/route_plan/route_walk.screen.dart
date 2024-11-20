@@ -66,7 +66,7 @@ class _RouteWalkScreenState extends State<RouteWalkScreen> {
               ),
             ],
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () async {
               final routeResult = await AmapSearch.instance.searchWalkRoute(
                 from: LatLng(

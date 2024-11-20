@@ -14,7 +14,8 @@ dependencies:
   
   foundation_fluttify: ^0.13.0+1
   core_location_fluttify: ^0.7.1
-  amap_core_fluttify: ^0.17.0
+  amap_core_fluttify:
+    path: ./amap_core_fluttify-0.17.0
 
 dev_dependencies:
   flutter_test:

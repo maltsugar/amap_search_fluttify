@@ -1,0 +1,45 @@
+{
+  "name": "amap_core_fluttify",
+  "version": "0.0.1",
+  "summary": "An `Amap Core` Map Component, Powered By `Fluttify`, A Compiler Generating Dart Bindings For Native SDK.",
+  "description": "A new flutter plugin project.",
+  "homepage": "https://github.com/fluttify-project",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "yohom": "yohombao@qq.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": [
+    "Classes/**/*.h",
+    "Vendors/*.h"
+  ],
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "foundation_fluttify": [
+
+    ],
+    "AMapFoundation": [
+      "~> 1.8.2"
+    ]
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": "Vendors/*.framework",
+  "vendored_libraries": "Vendors/*.a",
+  "frameworks": [
+
+  ],
+  "libraries": [
+
+  ],
+  "resources": "Vendors/**/*.bundle"
+}

@@ -1,0 +1,87 @@
+PODS:
+  - amap_core_fluttify (0.0.1):
+    - AMapFoundation (~> 1.6.9)
+    - Flutter
+    - foundation_fluttify
+  - amap_search_fluttify (0.0.1):
+    - AMapSearch (~> 9.2.0)
+    - Flutter
+    - foundation_fluttify
+  - AMapFoundation (1.6.9)
+  - AMapSearch (9.2.0):
+    - AMapFoundation (~> 1.6.9)
+  - app_minimizer (0.0.1):
+    - Flutter
+  - core_location_fluttify (0.0.1):
+    - Flutter
+    - foundation_fluttify
+  - Flutter (1.0.0)
+  - foundation_fluttify (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.0.4):
+    - Flutter
+  - share_plus (0.0.1):
+    - Flutter
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - amap_core_fluttify (from `.symlinks/plugins/amap_core_fluttify/ios`)
+  - amap_search_fluttify (from `.symlinks/plugins/amap_search_fluttify/ios`)
+  - app_minimizer (from `.symlinks/plugins/app_minimizer/ios`)
+  - core_location_fluttify (from `.symlinks/plugins/core_location_fluttify/ios`)
+  - Flutter (from `Flutter`)
+  - foundation_fluttify (from `.symlinks/plugins/foundation_fluttify/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation
+    - AMapSearch
+
+EXTERNAL SOURCES:
+  amap_core_fluttify:
+    :path: ".symlinks/plugins/amap_core_fluttify/ios"
+  amap_search_fluttify:
+    :path: ".symlinks/plugins/amap_search_fluttify/ios"
+  app_minimizer:
+    :path: ".symlinks/plugins/app_minimizer/ios"
+  core_location_fluttify:
+    :path: ".symlinks/plugins/core_location_fluttify/ios"
+  Flutter:
+    :path: Flutter
+  foundation_fluttify:
+    :path: ".symlinks/plugins/foundation_fluttify/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+
+SPEC CHECKSUMS:
+  amap_core_fluttify: 13aecb7c88760515dfd1124fae79f06886a13e94
+  amap_search_fluttify: 097695583cf4bacc3cae30ba98dba5402b8120ad
+  AMapFoundation: 8d8ecbb0b2e9ce5487995360d26c885d94642bfd
+  AMapSearch: b461cdf25b39cdca8957017de2f376cd1ac5da85
+  app_minimizer: a7e8bf2b20361723f210b079a8ab00230942ff6d
+  core_location_fluttify: 9466a411ea7d22c6349c7e6a767ae4623f01eb1d
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  foundation_fluttify: 0c45145e3fad1fb99188e4979daed5b24cd9b278
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+  share_plus: 599aa54e4ea31d4b4c0e9c911bcc26c55e791028
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+
+PODFILE CHECKSUM: 6e8b52754818cfa7996a110ed562da6901a0e391
+
+COCOAPODS: 1.15.2
